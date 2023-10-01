@@ -15,3 +15,4 @@ def main(a,b,c):
         largest=c
     return largest
 print(main(1,4,2))
+print(main(-5,-3,-1))
