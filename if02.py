@@ -8,4 +8,11 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    smallest=a
+    if smallest>b:
+        smallest=b
+    if smallest>c:
+        smallest=c
+    return smallest
+print(main(1,4,2))
+print(main(-5,-3,-1))
