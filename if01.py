@@ -8,4 +8,10 @@ def main(a,b,c):
     Returns:
         int: return answer.
     """
-    return
+    largest=a
+    if largest<b:
+        largest=b
+    if largest<c:
+        largest=c
+    return largest
+print(main(1,4,2))
