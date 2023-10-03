@@ -7,4 +7,12 @@ def main(a,b):
     Returns:
         int: return answer.
     """
-    return
+    large=a
+    if large<b:
+        large=b
+    if a==b:
+        return 0
+    if a!=b:
+        return large
+print(main(3,7))
+print(main(5,5))
