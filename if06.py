@@ -12,14 +12,19 @@ def main(n):
     n4=n//1000%10
     n5=n//10000
     large=n1
+    index=1
     if large<n2:
+        index=2
         large=n2
     if large<n3:
+        index=3
         large=n3
     if large<n4:
+        index=4
         large=n4
     if large<n5:
+        index=5
         large=n5
-    return large
+    return  large,index
 print(main(76514))
 print(main(54694))
